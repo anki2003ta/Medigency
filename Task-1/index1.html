@@ -17,7 +17,7 @@
     <div class="nav_bar">
       <a href="#">Home</a>
       <a href="#our-services">Services</a>
-      <a href="#">Feedback</a>
+      <a href="#feedback">Feedback</a>
       <a href="#">About Us</a>
       <a href="#">Contact Us</a>
     </div>
@@ -167,11 +167,37 @@
         </div>
       </div>
     </div>
+  
+  
+  <div id="feedback">
+    <div class="feedback-heading">
+      <h1>Feedback From Customers</h1>
+    </div>
+    <div class="panel-container">
+      <strong>How satisfied are you with our customer support performance?</strong>
+      <div class="rating-container">
+        <div class="rating">
+          <img src="img10.jpg">
+          <small>Unhappy</small>
+        </div>
 
-    
+        <div class="rating">
+          <img src="img11.jpg">
+          <small>Neutral</small>
+        </div>
+
+        <div class="rating active">
+          <img src="img12.jpg">
+          <small>Satisfied</small>
+        </div>
+      </div>
+      <button class="btn" id="send">Send Review</button>
+    </div>
+  </div> 
   </main>
+  
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
+  
   <script>
     var swiper = new Swiper(".mySwiperservices", {
       slidesPerView: 1,
@@ -196,5 +222,6 @@
       },
     });
   </script>
+  <script src="script1.js"></script>
 </body>
 </html>
