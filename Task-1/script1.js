@@ -16,7 +16,7 @@ sendBtn.addEventListener("click", () => {
   <div class="rating rating1">
     <img src="img13.jpg" class="js1">
   </div>
-  <p>We'll use your your feedback to inprove our customer support performance</p>`;
+  <p>We'll use your feedback to improve our customer support performance</p>`;
 });
 
 
